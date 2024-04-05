@@ -1,0 +1,2 @@
+# HFUT_School_Web_Autologin
+合肥工业大学校园网自动登录脚本
