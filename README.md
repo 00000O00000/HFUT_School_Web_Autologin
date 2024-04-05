@@ -12,6 +12,17 @@
 
 * python版本要求： python 3
 
+## 原理
+
+作者通过抓包，获取到了校园网登录接口（此为屯溪路登录接口，翡翠湖未知，请自行抓包）
+
+接口请求为GET方式，其中共有8个参数，通过配置生成器获取并保存。您也可以自行通过这个接口，开发属于自己的校园网自动登录脚本。
+
+```python
+url = "http://210.45.240.105:801/eportal/?c=Portal&a=login&callback={}&login_method={}&user_account={}&user_password={}&wlan_user_ip={}&wlan_user_ipv6=&wlan_user_mac={}&wlan_ac_ip={}&wlan_ac_name=&jsVersion=3.3.2&v={}"
+```
+
+
 ## 预编译文件运行
 如果你嫌麻烦，不用担心！
 
